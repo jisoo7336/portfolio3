@@ -24,7 +24,7 @@ body {background-color: #1E1F24; }
 
 .textbox{width: 70%; height: 70%; float: left; background-color: bisque;}
 
-#a img{width: 50%; height:65%; float: right; margin-top: 150px;}
+#a img{width: 250px; height:320px; float: right;}
 
 #b{
   width: 1200px;
