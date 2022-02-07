@@ -8,7 +8,7 @@ body {background-color: #1E1F24; }
 
 #container {
   width: 10000px;
-  height: 100vh;
+  height: 98vh;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ body {background-color: #1E1F24; }
   padding: 0px 200px;
 }
 
-.textbox{width: 70%; height: 70%; float: left; background-color: bisque;}
+.textbox{width: 60%; height: 70%; float: left; background-color: bisque;}
 
 #a img{width: 250px; height:320px; float: right;}
 
