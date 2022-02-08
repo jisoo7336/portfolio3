@@ -75,16 +75,12 @@ body {background-color: #1E1F24; overflow: hidden;}
   text-align: left;
 }
 
-.subtextbox li{
-  width: 100%;
-}
-
 .textbox2 span{
   transform: rotate(270deg); 
   font-size: 38px; 
   font-weight: bolder; 
   position: absolute; 
-  bottom: 70px; 
+  bottom: 110px; 
   left: 80%; 
   width: 530px;
   transform-origin: left;
