@@ -41,7 +41,7 @@ body {background-color: #1E1F24; }
 }
 
 .textbox2{
-  width: 15%; 
+  width: 10%; 
   height: 100%; 
   float: left; 
   color: white; 
@@ -74,8 +74,11 @@ body {background-color: #1E1F24; }
   float:left;
 }
 
-.imgbox{width: 80%; height: 100%; float: left; display: flex; align-items: center; justify-content: center;}
-.imgbox img{width: 700px; height: 550px;}
+.imgbox{width: 90%; height: 100%; float: left; display: flex; align-items: center; justify-content: center; transition: all 1s ease; }
+
+
+.imgbox:hover{transform: scale(0.8); transition: all 1s ease;}
+.imgbox img{width: 100%; height: 650px;}
 
 #c{
   width: 65vw;
