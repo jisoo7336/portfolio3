@@ -59,11 +59,12 @@ body {background-color: #1E1F24; overflow: hidden;}
 
 .subtextbox{
   width: 100%; 
-  height: 180px;  
+  height: 200px;  
   position: relative;
 }
 
 .subtextbox ul{
+  width: 100%;
   transform: rotate(270deg); 
   font-size: 18px; 
   position: absolute; 
@@ -72,6 +73,10 @@ body {background-color: #1E1F24; overflow: hidden;}
   font-weight: 600;
   transform-origin: left;
   text-align: left;
+}
+
+.subtextbox li{
+  width: 100%;
 }
 
 .textbox2 span{
