@@ -7,8 +7,8 @@ a{text-decoration: none;}
 body {background-color: #1E1F24; } 
 
 #container {
-  width: 10000px;
-  height: 98vh;
+  width: 600vw;
+  height: 97.8vh;
   text-align: center;
 }
 
@@ -27,7 +27,67 @@ body {background-color: #1E1F24; }
 #a img{width: 250px; height:320px; float: right;}
 
 #b{
-  width: 1200px;
+  width: 80vw;
+  height: 100%;
+  float: left;
+  border-left: 2px solid #2c2c31;
+}
+
+.textbox2{
+  width: 20%; 
+  height: 100%; 
+  float: left; 
+  color: white; 
+  background-color: chocolate; 
+  position: relative;
+}
+
+.textbox2 span{
+  transform: rotate(270deg); 
+  font-size: 28px; 
+  font-weight: bolder; 
+  background-color: aquamarine; 
+  position: absolute; 
+  bottom: 300px; 
+  left: 0px; 
+  width: 500px;
+}
+
+.textbox2 p{background-color: bisque; transform: rotate(270deg); }
+
+.imgbox{width: 80%; height: 100%; float: left; display: flex; align-items: center; justify-content: center;}
+.imgbox img{width: 700px; height: 550px;}
+
+#c{
+  width: 80vw;
+  height: 100%;
+  float: left;
+  border-left: 2px solid #2c2c31;
+}
+
+#d{
+  width: 80vw;
+  height: 100%;
+  float: left;
+  border-left: 2px solid #2c2c31;
+}
+
+#e{
+  width: 80vw;
+  height: 100%;
+  float: left;
+  border-left: 2px solid #2c2c31;
+}
+
+#f{
+  width: 80vw;
+  height: 100%;
+  float: left;
+  border-left: 2px solid #2c2c31;
+}
+
+#g{
+  width: 100vw;
   height: 100%;
   float: left;
   border-left: 2px solid #2c2c31;
