@@ -32,22 +32,30 @@ body {background-color: #1E1F24; overflow: hidden;}
   width: 80%; 
   height: 70%;
   padding: 0px 80px;
+  text-align: left;
+  transform: translateY(100px); 
+  transition: all 3s; 
+  opacity: 0;
 }
 
 .textbox h1{ 
   font-size: 130px;
   color: white;
-  text-align: left;
-  margin-top: 250px;
+  margin-top: 200px;
   font-family: 'SF_HambakSnow';
 }
 
 .textbox p{
   font-size: 70px;
   color: white;
-  text-align: left;
   margin-top: 30px;
+  margin-bottom: 20px;
   font-family: 'SF_HambakSnow';
+}
+
+.textbox span{
+  font-size: 20px;
+  color: white;
 }
 
 #b{
@@ -69,31 +77,31 @@ body {background-color: #1E1F24; overflow: hidden;}
 }
 
 .s1 {
-  transform: translateY(-100px); 
+  transform: translateX(50px); 
   transition: all 2s; 
   opacity: 0;
 }
 
 .s2 {
-  transform: translateY(-100px); 
+  transform: translateX(50px); 
   transition: all 2s; 
   opacity: 0;
 }
 
 .s3 {
-  transform: translateY(-100px); 
+  transform: translateX(50px); 
   transition: all 2s; 
   opacity: 0;
 }
 
 .s4 {
-  transform: translateY(-100px); 
+  transform: translateX(50px); 
   transition: all 2s; 
   opacity: 0;
 }
 
 .s5 {
-  transform: translateY(-100px); 
+  transform: translateX(50px); 
   transition: all 2s; 
   opacity: 0;
 }
