@@ -63,6 +63,7 @@ body {background-color: #1E1F24; overflow: hidden;}
   height: 100%;
   float: left;
   border-left: 2px solid #2c2c31;
+  position: relative;
 }
 
 .textbox2{
@@ -144,21 +145,22 @@ body {background-color: #1E1F24; overflow: hidden;}
   display: flex; 
   align-items: center; 
   justify-content: center;
+  transition: all 1s ease; 
 }
 
-.imgbox a{
+.imgbox .img{
   width: 850px; 
   height: 600px; 
   transition: all 1s ease;  
   overflow: hidden;
 }
 
-.imgbox a:hover{
+.imgbox:hover{
   transform: scale(0.8); 
   transition: all 1s ease;
 }
 
-.imgbox a:hover img{
+.imgbox:hover img{
   transform: scale(1.4);  
   transition: all 1s ease;
 }
@@ -169,33 +171,96 @@ body {background-color: #1E1F24; overflow: hidden;}
   transition: all 1s ease;
 }
 
+.coverbox1{
+  width: 80%;
+  height: 70%;
+  margin-top: 150px;
+  margin-left: 185px;
+  background-color: #1E1F24;
+  position: absolute;
+  border: 2px solid white;
+  display: none;
+}
+
 #c{
   width: 65vw;
   height: 100%;
   float: left;
   border-left: 2px solid #2c2c31;
+  position: relative;
 }
+
+.coverbox2{
+  width: 80%;
+  height: 70%;
+  margin-top: 150px;
+  margin-left: 185px;
+  background-color: #1E1F24;
+  position: absolute;
+  border: 2px solid white;
+  display: none;
+}
+
 
 #d{
   width: 65vw;
   height: 100%;
   float: left;
   border-left: 2px solid #2c2c31;
+  position: relative;
 }
+
+.coverbox3{
+  width: 80%;
+  height: 70%;
+  margin-top: 150px;
+  margin-left: 185px;
+  background-color: #1E1F24;
+  position: absolute;
+  border: 2px solid white;
+  display: none;
+}
+
 
 #e{
   width: 65vw;
   height: 100%;
   float: left;
   border-left: 2px solid #2c2c31;
+  position: relative;
 }
+
+.coverbox4{
+  width: 80%;
+  height: 70%;
+  margin-top: 150px;
+  margin-left: 185px;
+  background-color: #1E1F24;
+  position: absolute;
+  border: 2px solid white;
+  display: none;
+}
+
 
 #f{
   width: 65vw;
   height: 100%;
   float: left;
   border-left: 2px solid #2c2c31;
+  position: relative;
 }
+
+.coverbox5{
+  width: 80%;
+  height: 70%;
+  margin-top: 150px;
+  margin-left: 185px;
+  background-color: #1E1F24;
+  position: absolute;
+  border: 2px solid white;
+  display: none;
+}
+
 
 #g{
   width: 100vw;
