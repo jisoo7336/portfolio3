@@ -6,9 +6,9 @@ $(document).ready(function () {
 
   });
 
-  $(".coverbox1>button").click(function () {
+  $(".coverbox1>.b_out").click(function () {
 
-    $(".img1").fadeOut();
+    $(".coverbox1").fadeOut();
 
   });
 
@@ -18,9 +18,9 @@ $(document).ready(function () {
 
   });
 
-  $(".coverbox2>button").click(function () {
+  $(".coverbox2>.b_out").click(function () {
 
-    $(".img2").fadeOut();
+    $(".coverbox2").fadeOut();
 
   });
 
@@ -30,9 +30,9 @@ $(document).ready(function () {
 
   });
 
-  $(".coverbox3>button").click(function () {
+  $(".coverbox3>.b_out").click(function () {
 
-    $(".img3").fadeOut();
+    $(".coverbox3").fadeOut();
 
   });
 
@@ -42,9 +42,9 @@ $(document).ready(function () {
 
   });
 
-  $(".coverbox4>button").click(function () {
+  $(".coverbox4>.b_out").click(function () {
 
-    $(".img4").fadeOut();
+    $(".coverbox4").fadeOut();
 
   });
 
@@ -54,9 +54,9 @@ $(document).ready(function () {
 
   });
 
-  $(".coverbox5>button").click(function () {
+  $(".coverbox5>.b_out").click(function () {
 
-    $(".img5").fadeOut();
+    $(".coverbox5").fadeOut();
 
   });
 
