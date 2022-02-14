@@ -477,6 +477,83 @@ body {background-color: #1E1F24; overflow: hidden;}
   display: none;
 }
 
+.coverbox4 p{
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.coverbox4 img{
+  float: left;
+  width: 30px;
+  height: 30px; 
+}
+
+.coverbox4 img:first-of-type{
+  margin-left: 100px;
+}
+
+.coverbox4 img:nth-of-type(2){
+  margin-left: 8px;
+}
+
+.coverbox4 p:nth-of-type(2){
+  color: white;
+  font-weight: 400;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.coverbox4 button{
+  width: 90px;
+  height: 30px;
+  background: white;
+  color: #1E1F24;
+  border: initial;
+  border-radius: 8px;
+  font-weight: bolder;
+  cursor: pointer;
+  float: left;
+}
+
+.coverbox4 button:hover{
+  opacity: 0.6;
+}
+
+.coverbox4 button:first-of-type{
+  margin-left: 100px;
+}
+
+.coverbox4 button:nth-of-type(2){
+  margin-left: 8px;
+}
+
+.coverbox4 b{
+  width: 100%;
+  text-align: left;
+  float: left;
+  color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.coverbox4 p:nth-of-type(3){
+  color: white;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
 
 #f{
   width: 65vw;
@@ -497,6 +574,83 @@ body {background-color: #1E1F24; overflow: hidden;}
   display: none;
 }
 
+.coverbox5 p{
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.coverbox5 img{
+  float: left;
+  width: 30px;
+  height: 30px; 
+}
+
+.coverbox5 img:first-of-type{
+  margin-left: 100px;
+}
+
+.coverbox5 img:nth-of-type(2){
+  margin-left: 8px;
+}
+
+.coverbox5 p:nth-of-type(2){
+  color: white;
+  font-weight: 400;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.coverbox5 button{
+  width: 90px;
+  height: 30px;
+  background: white;
+  color: #1E1F24;
+  border: initial;
+  border-radius: 8px;
+  font-weight: bolder;
+  cursor: pointer;
+  float: left;
+}
+
+.coverbox5 button:hover{
+  opacity: 0.6;
+}
+
+.coverbox5 button:first-of-type{
+  margin-left: 100px;
+}
+
+.coverbox5 button:nth-of-type(2){
+  margin-left: 8px;
+}
+
+.coverbox5 b{
+  width: 100%;
+  text-align: left;
+  float: left;
+  color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.coverbox5 p:nth-of-type(3){
+  color: white;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
 
 #g{
   width: 100vw;
