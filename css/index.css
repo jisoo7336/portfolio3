@@ -667,16 +667,35 @@ body {background-color: #1E1F24; overflow: hidden;}
   height: 80%;
 }
 
-.subbox1{
-  text-align: left;
-  font-size: 25px;
-  color: white;
+.textbox3 img{
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.subbox2{
+.subbox1{
   text-align: left;
-  font-size: 25px;
   color: white;
-  margin-top: 100px;
-  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.subbox1 p:first-of-type{
+  font-size: 20px;
+  text-align: left;
+  width: 70%;
+}
+
+.subbox1 img{
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+.subbox1 p{
+  float: left;
+  text-align: center;
+  color: white;
 }
