@@ -11,7 +11,10 @@
 ul,ol,li{list-style: none;}
 a{text-decoration: none;}
 
-body {background-color: #1E1F24; overflow: hidden;} 
+body {
+  background-color: #1E1F24; 
+  /* overflow: hidden; */
+} 
 
 #container {
   width: 525vw;
@@ -676,26 +679,34 @@ body {background-color: #1E1F24; overflow: hidden;}
   margin-right: 100px;
 }
 
-.subbox1{
-  text-align: left;
-  color: white;
-  margin-top: 50px;
-}
-
-.subbox1 p:first-of-type{
+.textbox3 p{
   font-size: 20px;
   text-align: left;
   width: 70%;
+  margin-top: 50px;
+  color: white;
 }
 
-.subbox1 img{
+.subbox1{
+  width: 400px;
+  height: 300px;
+  text-align: left;
+  color: white;
+  margin-top: 50px;
+  float: left;
+  background-color: blue;
+}
+
+.subbox1>img{
   float: left;
   width: 30px;
   height: 30px;
+  margin: 0px 50px 0px 0px;
 }
 
 .subbox1 p{
   float: left;
-  text-align: center;
+  text-align: left;
   color: white;
+  margin: 0px;
 }
