@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  $(".img1").click(function () {
+  $(".cover4").click(function () {
 
     $(".coverbox1").fadeIn();
 
@@ -12,7 +12,7 @@ $(document).ready(function () {
 
   });
 
-  $(".img2").click(function () {
+  $(".cover3").click(function () {
 
     $(".coverbox2").fadeIn();
 
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
   });
 
-  $(".img3").click(function () {
+  $(".cover1").click(function () {
 
     $(".coverbox3").fadeIn();
 
@@ -36,7 +36,7 @@ $(document).ready(function () {
 
   });
 
-  $(".img4").click(function () {
+  $(".cover2").click(function () {
 
     $(".coverbox4").fadeIn();
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   });
 
-  $(".img5").click(function () {
+  $(".cover5").click(function () {
 
     $(".coverbox5").fadeIn();
 
