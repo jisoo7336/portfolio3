@@ -13,7 +13,7 @@ a{text-decoration: none;}
 
 body {
   background-color: #1E1F24; 
-  overflow: hidden;
+  /* overflow: hidden; */
 } 
 
 #container {
@@ -29,7 +29,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
+
+#canvas {
+  border: 1px soild black;
+  position: absolute;
+}
+
 
 .textbox{
   width: 80%; 
@@ -207,6 +216,10 @@ body {
 }
 
 .coverbox1 img:nth-of-type(2){
+  margin-left: 8px;
+}
+
+.coverbox1 img:nth-of-type(3){
   margin-left: 8px;
 }
 
@@ -407,6 +420,10 @@ body {
   margin-left: 8px;
 }
 
+.coverbox1 img:nth-of-type(3){
+  margin-left: 8px;
+}
+
 .coverbox3 p:nth-of-type(2){
   color: white;
   font-weight: 400;
@@ -501,6 +518,10 @@ body {
 }
 
 .coverbox4 img:nth-of-type(2){
+  margin-left: 8px;
+}
+
+.coverbox4 img:nth-of-type(3){
   margin-left: 8px;
 }
 
